@@ -9,6 +9,7 @@ int solution(vector<int> absolutes, vector<bool> signs) {
         if(signs[i]==false){
             absolutes[i]*=-1;
         }
+        
         answer+=absolutes[i];
     }
     return answer;
